@@ -1,0 +1,547 @@
+{
+  "timestamp": "2026-02-12T00:55:22",
+  "manuscript": {
+    "path": "docs/manuscript/Halessa_Manuscript.md",
+    "resolved_from": "C:/Users/Micha/Halessa/halessa-fusion-model/docs/Halessa_Manuscript.md"
+  },
+  "inputs": {
+    "docs_dir": "docs",
+    "prototypes_dir": "prototypes",
+    "prompts_dir": "prompts",
+    "ledger_dir": "docs/ledger",
+    "diagnostics_dir": "diagnostics"
+  },
+  "publication_zip": "halessa-core-publication.zip",
+  "verify_integrity": true,
+  "create_export_tree": true,
+  "export_tree_path": "logs/publication/export_tree.txt",
+  "file_count": 105,
+  "total_size_bytes": 104818164,
+  "file_checks": [
+    {
+      "path": "docs/manuscript/Halessa_Manuscript.md",
+      "size": 4188,
+      "sha256": "74ec42547e8e8806980d21f43a73f86b22c323fd661b1edb4c6362b46329f4c0"
+    },
+    {
+      "path": "docs/Phase_Index_Guide.md",
+      "size": 1125,
+      "sha256": "dda9f77a5444107fe4c1905f6085dd487b2f56b8fe94910a9ccdac1462e1683f"
+    },
+    {
+      "path": "docs/README.md",
+      "size": 108,
+      "sha256": "ae550b8e959442680de2ae817c2bd15a4b2e9e1e4e0df4cabe4023d823b72d5d"
+    },
+    {
+      "path": "docs/core/Halessa_Declaration.md",
+      "size": 4905,
+      "sha256": "c94caf6537b24df161e734dfc8e9939ebce55ee82afb49db572973360707769a"
+    },
+    {
+      "path": "docs/ledger/Ledger_System_Overview.md",
+      "size": 1335,
+      "sha256": "7178952dc42e94c52cb165a789a69bcc9d8e0490d5d8941e0a0eceac8f626d4b"
+    },
+    {
+      "path": "docs/simulations/QESR_Ignition_Trace.md",
+      "size": 3648,
+      "sha256": "7980bd52d9e5d771bd2ebd93db705538ca23ce1eb1c303b2d594a633f6256cff"
+    },
+    {
+      "path": "docs/simulations/QESR_orchestration_driver_README.md",
+      "size": 1750,
+      "sha256": "d97ad13b1c49019e1b57a4b6ce4af2601e625bb71fe9dc492b168e67c716900c"
+    },
+    {
+      "path": "docs/unity/QESR_Ignition_Flipbook_Guide.md",
+      "size": 1552,
+      "sha256": "343c577061714996e1e8ff4d8704aa0216859d40e61b109f647c0ff947b7efe8"
+    },
+    {
+      "path": "docs/unity/QESR_Ignition_Flipbook_Placeholder.shadergraph.json",
+      "size": 1809,
+      "sha256": "3aaef68b23ac18ef85e3b21548c2bc86cc667453a778934e72d0f30dc8d5f745"
+    },
+    {
+      "path": "docs/_notes/Simulations/Harmonic Fusion Energy Simulation (HFE).txt",
+      "size": 2379,
+      "sha256": "3ca4dc7f149b0826db4adb75cd9d1b8c5fd01cbb8922ed0da09803b9de8c80f7"
+    },
+    {
+      "path": "docs/_notes/Simulations/Simulation Of The Halessa Fusion Energy Output Q(x, y) at t = 0.txt",
+      "size": 2006,
+      "sha256": "f015752328194d2b039ded1b4dd8ec11f6dcad1ea6c548c26af4a4a7dbe682d3"
+    },
+    {
+      "path": "docs/_notes/Simulations/\u203c\ufe0f\u26d3\ufe0f\u200d\ud83d\udca5Dynamic Harmonic Fusion Energy Field Animation.txt",
+      "size": 3321,
+      "sha256": "4b1fbab846c03bcc3be50a4130d0755eaa3834d22b2eb1fb154c0100c0573e60"
+    },
+    {
+      "path": "docs/_notes/Simulations/\u203c\ufe0f\u26d3\ufe0f\u200d\ud83d\udca5time-evolving harmonic fusion energy field simulation.txt",
+      "size": 2220,
+      "sha256": "7ebb5b13420a11ba5617bd4a3c5e40903834b626ac20292751ba00897161de0c"
+    },
+    {
+      "path": "docs/modules/braid_ignition_weave_phase/Q_ignition_weave_preview.png",
+      "size": 267284,
+      "sha256": "804fc2f6671f8d1ef8d41704f93bf4bf1d63afab9c5a14e8d193894e30209446"
+    },
+    {
+      "path": "docs/modules/braid_ignition_weave_phase/README_phaseXI_ignition.md",
+      "size": 1079,
+      "sha256": "b632f18d9a119fcb389de3329e674689a3ab4a21d6c4c75ef3fd260549e526d0"
+    },
+    {
+      "path": "docs/modules/compression_phase/Q_compression_shell_preview.png",
+      "size": 97442,
+      "sha256": "0d53b3a95e8739fdba333da99a4e9e4bfb8766849d2297979a0d56ea7e7ff65e"
+    },
+    {
+      "path": "docs/modules/compression_phase/README_phaseVIII_compression.md",
+      "size": 1197,
+      "sha256": "06c7de0b88c7200126e712b1b1d3fb02a1f8343f8379c8c3d12dc757d5c8dd89"
+    },
+    {
+      "path": "docs/modules/corridor_phase/Q_corridor_convergence_preview.png",
+      "size": 67286,
+      "sha256": "b8ef5e08c20bbd33fe87492cd82d7fc6e47f605d7a1f61a5ec69a99aa7ba449d"
+    },
+    {
+      "path": "docs/modules/corridor_phase/README_phaseVII_corridor.md",
+      "size": 1153,
+      "sha256": "dd96a1c0765ebd344791945ef2f3f11e5afd743eb7fb55aba3c3c1346de61191"
+    },
+    {
+      "path": "docs/modules/curl_foldback_Phase/Q_foldback_resonance_preview.png",
+      "size": 121178,
+      "sha256": "f9b3d4892162ef55147fe7d0df34c1784e8a74d256d324d1f4b171927ad3ecd7"
+    },
+    {
+      "path": "docs/modules/curl_foldback_Phase/README_phaseIX_foldback.md",
+      "size": 1068,
+      "sha256": "ba33b006d9ebad012230405f8c4757fc6c1de0ab0ce62c95a2813a41d61d34bb"
+    },
+    {
+      "path": "docs/modules/curl_phase/Q_curl_threading_field_preview.png",
+      "size": 144083,
+      "sha256": "aa07278a2406835aab0b565e429b9e018d64691840ed828548cc921262092124"
+    },
+    {
+      "path": "docs/modules/curl_phase/README_curl_phase.md",
+      "size": 1296,
+      "sha256": "19e766fa5275183c016df0532fa6b0d954eb0b3993c6358771d081c33f189adf"
+    },
+    {
+      "path": "docs/modules/echo_phase/Q_echo_harmonic_spiral_preview.png",
+      "size": 90664,
+      "sha256": "7fa6880fcf339eb668e09cd1204a436f28ed30e2aaff0813723dd75a0ac8f54f"
+    },
+    {
+      "path": "docs/modules/echo_phase/README_echo_phase.md",
+      "size": 1304,
+      "sha256": "5e4bb03a7811c72645e7a2209aa8cd5579e1bec4c387c350ca7ef75b02208a6c"
+    },
+    {
+      "path": "docs/modules/feedback_phase/Q_harmonic_feedback_preview.png",
+      "size": 119611,
+      "sha256": "e2654eee6990b95c0f1a78f85fafa0813f56a26f02f37a38a03c2b111cf038a7"
+    },
+    {
+      "path": "docs/modules/feedback_phase/README_feedback_phase.md",
+      "size": 1428,
+      "sha256": "0fc327f6f802c58fd64d3b4ed4f37fd997c99f6a79e31c8f77d88c976acfa5a9"
+    },
+    {
+      "path": "docs/modules/nodal_containment_phase/Q_nodal_containment_preview.png",
+      "size": 117055,
+      "sha256": "075f63ef206cdc922d4a044c7d20c4eb69ed6b99706993ac056ff4b2503525f1"
+    },
+    {
+      "path": "docs/modules/nodal_containment_phase/README_phaseXIV_nodal_containment.md",
+      "size": 1297,
+      "sha256": "d8e0321a6683824c2111eaf2405a6607d7035fc1ecbc80fe9b9392b43c02c6af"
+    },
+    {
+      "path": "docs/modules/phase_meshes/reconstituted_meshes_log.json",
+      "size": 1070,
+      "sha256": "7294bbf951966734ae835986a4a9aea57640e624305f92a81cee54eff46cfb0f"
+    },
+    {
+      "path": "docs/modules/Q_ignition_sim_phase/Q_ignition_sim_preview.png",
+      "size": 120085,
+      "sha256": "18ea4414c688b5a6c7b1e0432a8f07c666962c67fbbe664b79f9bb2bf278dbb1"
+    },
+    {
+      "path": "docs/modules/Q_ignition_sim_phase/README_phaseXVI_ignition.md",
+      "size": 1562,
+      "sha256": "c520337b36508b582686267a744a5456c3c246ca1ae37323cbd339ef4cbab787"
+    },
+    {
+      "path": "docs/modules/Q_modulation_banding_Phase/Q_modulation_banding_preview.png",
+      "size": 127162,
+      "sha256": "502a60157ca39c4309d18623ab11d18a9bb5b507995d28a3fa6bd7191a6c71e8"
+    },
+    {
+      "path": "docs/modules/Q_modulation_banding_Phase/README_phaseX_modulation.md",
+      "size": 1148,
+      "sha256": "9861d8aaa1bbb72b71066ed6824d4f727e631e1ec7a6685f4aac34102d1bddd6"
+    },
+    {
+      "path": "docs/modules/triangulation_convergence/Q_triangulation_thread_preview.png",
+      "size": 67991,
+      "sha256": "22c88a4f26debf835840231b059b3c549761ad070e3b529a56a47229a74a33c3"
+    },
+    {
+      "path": "docs/modules/triangulation_convergence/README_phaseXV_triangulation.md",
+      "size": 1601,
+      "sha256": "bf02a871a4e4e3c83724a393975efb835bd775a0724a6ab002c42352c2659c10"
+    },
+    {
+      "path": "docs/modules/triangulation_threading_phase/README_phaseXV_triangulation.md",
+      "size": 1057,
+      "sha256": "a3770f5652abce6b7e9df426633e3d4ce53c1deb744591f7d333669356b00519"
+    },
+    {
+      "path": "docs/modules/\u203c\ufe0f\u26d3\ufe0f\u200d\ud83d\udca5confinement_lens_phase/Q_confinement_lens_preview.png",
+      "size": 118200,
+      "sha256": "50440e38a6e07c77e9befd04c28eaedd94e85aabcdb1c2e8293fc2e64feae755"
+    },
+    {
+      "path": "docs/modules/\u203c\ufe0f\u26d3\ufe0f\u200d\ud83d\udca5confinement_lens_phase/README-phaseXIII-confinement.md",
+      "size": 2084,
+      "sha256": "5e1251848463852404576273bf8bb9db87c073f96bb89b99ec4e975cde9490f9"
+    },
+    {
+      "path": "docs/modules/\u203c\ufe0f\u26d3\ufe0f\u200d\ud83d\udca5harmonic_resonance_shell_phase/Q_harmonic_resonance_preview.png",
+      "size": 88038,
+      "sha256": "eb37291a1403cea03c4d3c4da72fdcb58358210b81a55d56a99298e3d282df95"
+    },
+    {
+      "path": "docs/modules/\u203c\ufe0f\u26d3\ufe0f\u200d\ud83d\udca5harmonic_resonance_shell_phase/README_phaseXII_resonance.md",
+      "size": 1323,
+      "sha256": "94030122fffa405e03c1e007e89d0ad09999f16f5e07f3bca16d2acfd6c322b8"
+    },
+    {
+      "path": "docs/ledger/confirmed_entries/phaseXIV_nodal_containment_convergence_report_2026-02-11.md",
+      "size": 2565,
+      "sha256": "46b8389605a4575748b9ee0d5b6ce1eb913f5ffb64d89fe50ba466892fa88b83"
+    },
+    {
+      "path": "docs/ledger/recovered_entries/missing_ledger_entries.md",
+      "size": 823,
+      "sha256": "a8b66a94c5d464a0fa5e32610a7230c06441a0c7bac52cbf43ec63d5ef0c25b2"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/readme.txt",
+      "size": 39,
+      "sha256": "80b272b6964f2cedeb9f493c7bd8789406e2b83fef1c759bafd2cd0c1d869108"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/PhaseII_Parametric_Bloom.md",
+      "size": 494,
+      "sha256": "78619822b992d747028c1057289e42aa0cf4b6fc9729443b213339fa062ffd54"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/PhaseII_Parametric_Bloom.obj",
+      "size": 1340599,
+      "sha256": "b4266277615dd30dafa3f34240ee9640f40d9c60dd7265cea9ef1bc347424e45"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_charge_braid.md",
+      "size": 367,
+      "sha256": "b00e9da1cf8c6e79e37822680601ec451ae1ff872bee480123e11d472532832a"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_charge_braid.obj",
+      "size": 218,
+      "sha256": "9bf4a462c484ddc191b13e9c94f307ba33a0e82687965fbe47fa1acd33a65eda"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_compression_shell.obj",
+      "size": 6657791,
+      "sha256": "1c259bdcc04879793533530d2b06a9fb9815fe4a267e9f0f7d9f440e49657924"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_confinement_lens.obj",
+      "size": 12144256,
+      "sha256": "874f8c21672a3c80c1b2a4f724f124196152bb94651de23e77febe0f225fc788"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_corridor_convergence_mesh.obj",
+      "size": 6686399,
+      "sha256": "60ff280feca28f5c7d753ff634958e1195bef8af9adfbe39d5250b6f1777879e"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_corridor_mesh_link.md",
+      "size": 379,
+      "sha256": "8e5f681ba6d9e1b9a3dbd573a04d7fbcd30835e71415f87070d934a6c2698a79"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_corridor_mesh_link.obj",
+      "size": 523596,
+      "sha256": "9ca33e860937a0f16ff53a39e23e193e99283304364d0dd4d7ba9d6d5616b844"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_curl_threading_structure.obj",
+      "size": 12177837,
+      "sha256": "a4fd38183e2b38a626a10d2efb5275c4be0e73c8ff9431cf11b25f25d6cbabaf"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_echo_spiral_reinforcement.obj",
+      "size": 12286705,
+      "sha256": "d261ace6d05ac9327d58c00fa8ddcf54fe18f7bec5925a526b6226254ffd58fc"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_foldback_retention.obj",
+      "size": 6663685,
+      "sha256": "1bae9b0ca56937d357fd952abe2e58d162a8036648a6ecdde0aab171087303bc"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_harmonic_resonance_shell.obj",
+      "size": 6683269,
+      "sha256": "6a739a334a4b12edf45696c89db9996aa108dbf4730c9ed23e6018fbc8eddb6b"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_ignition_threshold_shell.obj",
+      "size": 6518281,
+      "sha256": "739d9c8f30cfad43c6c38e57af526b0c2bad055f8037f80f0622c4122b1f63f2"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_modulation_braid.obj",
+      "size": 6574403,
+      "sha256": "19f36a9934cd5b04b9266783b33b0de2bca74ec0c844bf6c11b518c9a313c79d"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/QESR_nodal_containment.obj",
+      "size": 4857927,
+      "sha256": "e6cf4fcd1560ef98b2addefdb99d6ac7f3ed27be60254af42fc475a7955f18c5"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/Q_confinement_lens_field.obj",
+      "size": 11504272,
+      "sha256": "21ef449c976dacec37f1779cf7dd9c5a450aa759572934080c9db6d40e24321d"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/Q_ignition_harmonic_mesh.obj",
+      "size": 456,
+      "sha256": "2eac08a21c01ba458908d1e0c5cf968ff2b391081442247bbdb6113e76710524"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/Q_triangulation_thread_mesh.obj",
+      "size": 620,
+      "sha256": "f9d281e23f7c9d9543682f0ba7f721a022b05a0d5f4e2de2c16c1795a64c92a9"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/README.md",
+      "size": 1615,
+      "sha256": "7c24fc3c761476404e2a2fd6a74ce9fb735867df1b50a1157f26c94560cfc526"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/results/readme.txt",
+      "size": 46,
+      "sha256": "dad48f77531c3ab0ca5d47421506dce1b10d3470895edc2b6e0f50990ac5140f"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/simulation/inference_trace_pass_001.md",
+      "size": 1757,
+      "sha256": "5f5b57d087ccf8c3531ee36b1d61396f9b458a859ecd70dcfd76cdd7a74b2f84"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/simulation/pcl_micro_lattice_seed_001.md",
+      "size": 1583,
+      "sha256": "a5a5cd7f55a0024d427688c7b6c4e8eddcae75e678595e2596b885c363e07ece"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/Harmonic_Overlay.py",
+      "size": 1574,
+      "sha256": "c27d87585f8dfcd8e9bc123b54e27e126c1789f626d0b3d55810440a3378dcde"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/standins.md",
+      "size": 1060,
+      "sha256": "a89abff44df589a4aac53638322db056fea7e72826aac2a049ccfec7f18dc134"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/convergence/fusion_field.py",
+      "size": 674,
+      "sha256": "c322321fc002cfeca86fd248a0473070797e60b193ec8c9f1fc127970547fd80"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/overlay/harmonic_field_sweep_viewer.py",
+      "size": 763,
+      "sha256": "1a1793218265e213b56309b9c293d23d62abd322f68d7ab45b8e371224f8d719"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/modules/tunnel_mapping/QESR_tunnel_divergence_shell.obj",
+      "size": 6210580,
+      "sha256": "eb9a6c6d11d869d1a695de554c53cf0dd557dc6e89d68dbe018de40b15885524"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/modules/tunnel_mapping/README_tunnel_node_map.md",
+      "size": 1052,
+      "sha256": "e3405a774d1acdf90b3303cc41f33af7eeb0488739edb439882456eaa4389efa"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/modules/tunnel_mapping/tunnel_node_threading.py",
+      "size": 1734,
+      "sha256": "d21604a1c59f1e5803e960d055e67ec0d5d45e1e4fdd8c43b25c6c008858e2fd"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/modules/tunnel_mapping/tunnel_thread_field.py",
+      "size": 1636,
+      "sha256": "6bf81a5c24f7545ea5aed9ad1988d9da251e80c8063d243145e8894ac122be5d"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/convergence/notebooks/Convergence_Envelope_Test.ipynb",
+      "size": 2521,
+      "sha256": "3d059dbbc6135a545cf59e3512e0b1458aac746cca1b146f9e7323ba449e587e"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/src/convergence/notebooks/Harmonic_Field_Sweep.ipynb",
+      "size": 1781,
+      "sha256": "0f4212d4f8b0b699ebe86554557aa3a43552cc5764871fa5145cd9f4501405cf"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/macro/readme.txt",
+      "size": 64,
+      "sha256": "88bd2d8f607053111b314dc5ffd58d50430800c3358d27e7e2c1e32d243656d2"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/micro/readme.txt",
+      "size": 48,
+      "sha256": "35ca1c469fbe70a7dfae10b0907fd56280863236f236bb95727e350151f7192f"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/QESR_Validation_Suite.txt",
+      "size": 904,
+      "sha256": "940ac376d302ba3e9b4a1a2c302f8438d7b19110effc43cb77810d6449b85f1d"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Figures/QESR_Lattice_Sweep_1_Resonance_Field_Topology.PNG",
+      "size": 286314,
+      "sha256": "9bd2fbfcfb2d415dc77e9c3907f5b5bce0776e6c7013edb8e5f51b1de75ee368"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Figures/QESR_Sweep_Layers.md",
+      "size": 498,
+      "sha256": "0a3060ed96a851bb27e12cbe1e1ff8ee3c818473285418b3790bc8ebdbe97faf"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Parametric/QESR_L3_parametric.md",
+      "size": 993,
+      "sha256": "66995ccf336c864095a3afbf56d351bd9f8b928290080e8112c4b3a0f3909992"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Parametric/QESR_L3_parametric_equations.txt",
+      "size": 121,
+      "sha256": "15b13973255471383fd562c66c246d4680a0d84f4b4457e90628fd0f33e5d88a"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Parametric/README.md",
+      "size": 693,
+      "sha256": "82c112c6ba878fcd502de6554a6aee902b5a5ce55db0e5f3d0f343b01569515b"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Figures/QESR_Validation/QESR_Validation_Suite.py",
+      "size": 1598,
+      "sha256": "45829694064bd32c0ba0c19af07577a2dc2dbae255b9ef0c7577fbca3ceab847"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Figures/QESR_Validation/QESR_Validation_Suite_SVG.py",
+      "size": 1481,
+      "sha256": "e7a9651224ba2f0233844af46bae7f629bdd338d347646fc3aa737cd132f5245"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Figures/QESR_Validation/\ud83d\udcca QESR Analytical Plot Suite.text",
+      "size": 1029,
+      "sha256": "38e17d09e85e1d698af1b060b822b726d8e95dab12cb098b641fd530ddb9759d"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Figures/Stylaized/QESR_Five_Layer_Lattice_Sweep.svg",
+      "size": 1534,
+      "sha256": "d99d5daf6deb6b6a6d9f331b4994d55435a6f65eec5efaca58d2f613ea663c76"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Figures/Stylaized/QESR_sweep_composite.png",
+      "size": 1568372,
+      "sha256": "f85143ef9933a6ed312194480b0c1d1a8adba9e88e4c40e1989f933556043bc2"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/prototype_scale/nano/Figures/Stylaized/readme.text",
+      "size": 497,
+      "sha256": "f9032901a4ccaa8a88ccda1ad871abe6001fd0226fd4badc61234407cf7104e1"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/QESR/index.md",
+      "size": 1244,
+      "sha256": "a000345f29e2ba2c5b195fda1cc21716ced8bc6e39470fe825ae4c9b9207cfdf"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/QESR/layer 1/QESR_L1_Sweep.md",
+      "size": 1421,
+      "sha256": "bd6d5c4bf09e19194e12c78451ca2a637151018d9083477db12218d596951aa1"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/QESR/Layer 2/QESR_L2_Sweep.md",
+      "size": 1415,
+      "sha256": "40a2923b136e75d651317ecffb8930592d19f8e23eee928fde54f2e3544e0412"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/QESR/Layer 3/QESR_L3_Sweep.md",
+      "size": 1715,
+      "sha256": "82a4bdf7201b01a4dfd280287fe24edd30887c8e9beb4744ad4978e8cb3e9e03"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/QESR/Layer 4/QESR_L4_Sweep.md",
+      "size": 2100,
+      "sha256": "c644b95e0832274bdd788a7c2c23c2365d790a375af840cd1c42967e4be67023"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/QESR/Layer 5/QESR_L5_Sweep.md",
+      "size": 2074,
+      "sha256": "eba6532cbaa4dfaf7a5bcbcf03bb88adea62017c2ab85f9b5162e2fbe74b8e19"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/PCL/Branching/pcl_branching_logic.md",
+      "size": 1531,
+      "sha256": "98b952481548b1e98ac745539d7c710734ad3fdaa909a2bd10b00cd20152fc41"
+    },
+    {
+      "path": "prototypes/Nivalis_Node_Phase_I/docs/PCL/Branching/simulation/Bloom_Pass_002.md",
+      "size": 1927,
+      "sha256": "acc9e0b9b15925a284c9ab1cec8ba08e6fa01d34fb6f6c0d84fb0e88ce58b230"
+    },
+    {
+      "path": "prompts/convergence_querieies/phaseXIV_nodal_containment_convergence_report_2026-02-11.md",
+      "size": 2565,
+      "sha256": "46b8389605a4575748b9ee0d5b6ce1eb913f5ffb64d89fe50ba466892fa88b83"
+    },
+    {
+      "path": "diagnostics/thumb_XIII_XIV_alignment_diff.png",
+      "size": 70540,
+      "sha256": "cf5fbf2d86fb5c8118e110523cbf12358dec4257ae582471755a9674383de0a6"
+    },
+    {
+      "path": "diagnostics/thumb_XIII_XIV_alignment_overlay.png",
+      "size": 184515,
+      "sha256": "63e52672d9c3e106b32a3ef6030f52d3be7d884af5f3d8552786beadaf2fc76b"
+    },
+    {
+      "path": "diagnostics/XIII_XIV_alignment_diff.png",
+      "size": 59704,
+      "sha256": "317e86464996d8be456900b2eb11a9fa25e53b71346ed25ad522f6d33efb8737"
+    },
+    {
+      "path": "diagnostics/XIII_XIV_alignment_overlay.png",
+      "size": 169566,
+      "sha256": "d3ca3c8c02ffac52a68154f8d3fb3f22cb78473ef09aeb06754cb4937684570f"
+    },
+    {
+      "path": "diagnostics/XIII_XIV_alignment_preview.html",
+      "size": 4252,
+      "sha256": "bcbe6ce4bfb8e51b87e1e0ce3e3c9a6dfdb511d915fb96d2199597f56729b5f7"
+    }
+  ]
+}

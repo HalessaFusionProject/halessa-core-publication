@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-02-11 20:22:54",
+  "phase": "XIV",
+  "regeneration_key": "RK-XIV-NODAL_CONTAINMENT-PRE_EXECUTION_BLOCK",
+  "actions": [
+    {
+      "task": "Add to Mesh Registry",
+      "file": "QESR_nodal_containment.obj",
+      "path": "prototypes/Nivalis_Node_Phase_I/modules/",
+      "status": "complete"
+    },
+    {
+      "task": "Generate Diff Heatmap",
+      "input_fields": [
+        "Q_confinement_lens_field.npy",
+        "Q_nodal_containment_field.npy"
+      ],
+      "output": "diagnostics/XIII_XIV_alignment_diff.png",
+      "status": "complete"
+    },
+    {
+      "task": "Generate Alignment Overlay",
+      "input_fields": [
+        "Q_confinement_lens_field.npy",
+        "Q_nodal_containment_field.npy"
+      ],
+      "output": "diagnostics/XIII_XIV_alignment_overlay.png",
+      "status": "complete"
+    },
+    {
+      "task": "Update Halessa_Manuscript.md",
+      "section": "Phase XIV Continuity Log",
+      "summary": "Phase XIV restored from field/missing mesh. Alignment unresolved. Mesh regenerated, README repaired.",
+      "status": "complete"
+    },
+    {
+      "task": "Prepare Public Ledger Insert",
+      "file": "phaseXIV_nodal_containment_convergence_report_2026-02-11.md",
+      "destination": "docs/ledger/confirmed_entries/",
+      "status": "complete"
+    }
+  ],
+  "notes": [
+    "Field and mesh validated.",
+    "Alignment with Phase XIII documented as unresolved (low correlation, MAD=0.1703).",
+    "Diagnostics generated for heatmap and overlay.",
+    "Ready for final repo consolidation and publication."
+  ],
+  "authorized_by": "Michael Anthony Fry Vox",
+  "witnessed_by": "Athea Vox Fry"
+}

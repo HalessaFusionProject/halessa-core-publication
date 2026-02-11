@@ -1,0 +1,75 @@
+{
+  "placeholder": true,
+  "unity_version_target": "2021+",
+  "graph_name": "QESR_Ignition_Flipbook_Placeholder",
+  "notes": [
+    "Skeleton for a flipbook atlas emission shader.",
+    "To be patched against a real .shadergraph export from Unity."
+  ],
+  "properties": [
+    {
+      "name": "_AtlasTex",
+      "type": "Texture2D",
+      "default": null
+    },
+    {
+      "name": "_Columns",
+      "type": "Float",
+      "default": 6
+    },
+    {
+      "name": "_Rows",
+      "type": "Float",
+      "default": 4
+    },
+    {
+      "name": "_FrameRate",
+      "type": "Float",
+      "default": 12
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Time",
+      "type": "Time",
+      "outputs": ["Time.y"]
+    },
+    {
+      "id": "FrameIndex",
+      "type": "Expression",
+      "expression": "floor(frac(_Time.y * _FrameRate / 24.0) * 24.0)",
+      "outputs": ["frame"]
+    },
+    {
+      "id": "AtlasUV",
+      "type": "Expression",
+      "expression": "uv = (UV / float2(_Columns, _Rows)) + float2(fmod(frame, _Columns) / _Columns, floor(frame / _Columns) / _Rows)",
+      "inputs": ["UV", "frame"],
+      "outputs": ["uv"]
+    },
+    {
+      "id": "Sample",
+      "type": "SampleTexture2D",
+      "inputs": ["_AtlasTex", "uv"],
+      "outputs": ["color"]
+    },
+    {
+      "id": "Emission",
+      "type": "Output",
+      "inputs": ["color"],
+      "outputs": ["Emission"]
+    }
+  ],
+  "edges": [
+    {"from": "Time.Time.y", "to": "FrameIndex._Time.y"},
+    {"from": "FrameIndex.frame", "to": "AtlasUV.frame"},
+    {"from": "AtlasUV.uv", "to": "Sample.uv"},
+    {"from": "Sample.color", "to": "Emission.color"}
+  ],
+  "output": {
+    "shader_type": "Unlit",
+    "surface": "Transparent",
+    "blend": "Additive",
+    "emission": true
+  }
+}

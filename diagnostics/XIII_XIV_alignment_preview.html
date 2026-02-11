@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Phase XIII ? XIV Alignment Preview</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --fg: #e6e6e6;
+    --muted: #a8b0bd;
+    --accent: #f59e0b;
+    --panel: #1a1f2b;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", sans-serif; background: var(--bg); color: var(--fg); }
+  header { padding: 16px 24px; background: #141824; border-bottom: 1px solid #232a3a; }
+  h1 { margin: 0; font-size: 20px; }
+  .meta { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  .layout { display: grid; grid-template-columns: 280px 1fr; gap: 16px; padding: 16px; }
+  .panel { background: var(--panel); padding: 12px; border: 1px solid #232a3a; border-radius: 8px; }
+  .toggles label { display: block; margin: 6px 0; }
+  .markers { font-size: 12px; line-height: 1.5; }
+  .markers code { color: var(--accent); }
+  .images { display: grid; gap: 16px; }
+  figure { margin: 0; }
+  figcaption { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  img { max-width: 100%; height: auto; border: 1px solid #2a3143; border-radius: 6px; }
+  .thumbs img { max-width: 120px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Phase XIII ? XIV Alignment Preview</h1>
+  <div class="meta">Regeneration Key: RK-XIV-NODAL_CONTAINMENT-PRE_EXECUTION_BLOCK | Generated: 2026-02-11 22:23:20</div>
+</header>
+<div class="layout">
+  <aside class="panel">
+    <div class="toggles">
+      <strong>Toggles</strong>
+      <label><input type="checkbox" id="toggle-diff" checked> Show Diff Heatmap</label>
+      <label><input type="checkbox" id="toggle-overlay" checked> Show Overlay</label>
+      <label><input type="checkbox" id="toggle-markers" checked> Show Log Markers</label>
+      <label><input type="checkbox" id="toggle-thumbs" checked> Show Thumbnails</label>
+    </div>
+    <hr style="border: none; border-top: 1px solid #232a3a; margin: 12px 0;">
+    <div id="markers" class="markers">
+      <strong>Log Markers</strong><br>
+      Correlation (resampled): <code>-0.0717</code><br>
+      Min-max MAD: <code>0.1703</code><br>
+      Diff image: <code>diagnostics\XIII_XIV_alignment_diff.png</code><br>
+      Overlay image: <code>diagnostics\XIII_XIV_alignment_overlay.png</code><br>
+      Thumb diff: <code>thumb_XIII_XIV_alignment_diff.png</code><br>
+      Thumb overlay: <code>thumb_XIII_XIV_alignment_overlay.png</code>
+    </div>
+    <div id="thumbs" class="thumbs" style="margin-top: 12px;">
+      <img src="thumb_XIII_XIV_alignment_diff.png" alt="Diff thumbnail">
+      <img src="thumb_XIII_XIV_alignment_overlay.png" alt="Overlay thumbnail">
+    </div>
+  </aside>
+  <main class="images">
+    <figure id="diff-block" class="panel">
+      <img src="XIII_XIV_alignment_diff.png" alt="Diff heatmap">
+      <figcaption>Absolute difference heatmap (Phase XIII vs Phase XIV resampled).</figcaption>
+    </figure>
+    <figure id="overlay-block" class="panel">
+      <img src="XIII_XIV_alignment_overlay.png" alt="Overlay">
+      <figcaption>Overlay: Red=Phase XIII, Blue=Phase XIV (resampled), Green=mean.</figcaption>
+    </figure>
+  </main>
+</div>
+<script>
+  const diffToggle = document.getElementById('toggle-diff');
+  const overlayToggle = document.getElementById('toggle-overlay');
+  const markerToggle = document.getElementById('toggle-markers');
+  const thumbsToggle = document.getElementById('toggle-thumbs');
+  const diffBlock = document.getElementById('diff-block');
+  const overlayBlock = document.getElementById('overlay-block');
+  const markers = document.getElementById('markers');
+  const thumbs = document.getElementById('thumbs');
+
+  function update() {
+    diffBlock.style.display = diffToggle.checked ? 'block' : 'none';
+    overlayBlock.style.display = overlayToggle.checked ? 'block' : 'none';
+    markers.style.display = markerToggle.checked ? 'block' : 'none';
+    thumbs.style.display = thumbsToggle.checked ? 'block' : 'none';
+  }
+  diffToggle.addEventListener('change', update);
+  overlayToggle.addEventListener('change', update);
+  markerToggle.addEventListener('change', update);
+  thumbsToggle.addEventListener('change', update);
+  update();
+</script>
+</body>
+</html>

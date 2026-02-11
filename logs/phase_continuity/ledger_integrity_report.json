@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-11T22:23:20",
+  "ledger_path": "docs/ledger/confirmed_entries",
+  "entry_count": 1,
+  "regeneration_keys": [
+    "RK-XIV-NODAL_CONTAINMENT-PRE_EXECUTION_BLOCK"
+  ],
+  "key_to_traces": {
+    "RK-XIV-NODAL_CONTAINMENT-PRE_EXECUTION_BLOCK": [
+      "logs/phase_continuity/phaseXIV_post_ops.json"
+    ]
+  },
+  "missing_key_traces": []
+}

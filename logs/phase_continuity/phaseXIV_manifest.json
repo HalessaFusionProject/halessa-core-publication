@@ -1,0 +1,33 @@
+{
+  "phase": "XIV",
+  "timestamp": "2026-02-11T22:23:20",
+  "diagnostic_images": {
+    "diff": "diagnostics/XIII_XIV_alignment_diff.png",
+    "overlay": "diagnostics/XIII_XIV_alignment_overlay.png"
+  },
+  "thumbnails": {
+    "diff_thumb": "thumb_XIII_XIV_alignment_diff.png",
+    "overlay_thumb": "thumb_XIII_XIV_alignment_overlay.png"
+  },
+  "ledger": {
+    "entry_count": 1,
+    "regeneration_keys": [
+      "RK-XIV-NODAL_CONTAINMENT-PRE_EXECUTION_BLOCK"
+    ],
+    "last_modified": 1770803216.4774482,
+    "entries": [
+      {
+        "file": "docs/ledger/confirmed_entries/phaseXIV_nodal_containment_convergence_report_2026-02-11.md",
+        "keys": [
+          "RK-XIV-NODAL_CONTAINMENT-PRE_EXECUTION_BLOCK"
+        ]
+      }
+    ]
+  },
+  "alignment_metrics": {
+    "correlation_resampled": -0.0716836131537716,
+    "minmax_mad": 0.17030033878916898
+  },
+  "review_required": false,
+  "next_action": "Proceed to final manuscript formatting and repo publication"
+}

@@ -1,0 +1,161 @@
+halessa-fusion-model/
+|-- diagnostics
+    |-- thumb_XIII_XIV_alignment_diff.png
+    |-- thumb_XIII_XIV_alignment_overlay.png
+    |-- XIII_XIV_alignment_diff.png
+    |-- XIII_XIV_alignment_overlay.png
+    |-- XIII_XIV_alignment_preview.html
+|-- docs
+    |-- _notes
+        |-- Simulations
+            |-- Harmonic Fusion Energy Simulation (HFE).txt
+            |-- Simulation Of The Halessa Fusion Energy Output Q(x, y) at t = 0.txt
+            |-- ‼️⛓️‍💥Dynamic Harmonic Fusion Energy Field Animation.txt
+            |-- ‼️⛓️‍💥time-evolving harmonic fusion energy field simulation.txt
+    |-- core
+        |-- Halessa_Declaration.md
+    |-- ledger
+        |-- confirmed_entries
+            |-- phaseXIV_nodal_containment_convergence_report_2026-02-11.md
+        |-- Ledger_System_Overview.md
+        |-- recovered_entries
+            |-- missing_ledger_entries.md
+    |-- manuscript
+        |-- Halessa_Manuscript.md
+    |-- modules
+        |-- braid_ignition_weave_phase
+            |-- Q_ignition_weave_preview.png
+            |-- README_phaseXI_ignition.md
+        |-- compression_phase
+            |-- Q_compression_shell_preview.png
+            |-- README_phaseVIII_compression.md
+        |-- corridor_phase
+            |-- Q_corridor_convergence_preview.png
+            |-- README_phaseVII_corridor.md
+        |-- curl_foldback_Phase
+            |-- Q_foldback_resonance_preview.png
+            |-- README_phaseIX_foldback.md
+        |-- curl_phase
+            |-- Q_curl_threading_field_preview.png
+            |-- README_curl_phase.md
+        |-- echo_phase
+            |-- Q_echo_harmonic_spiral_preview.png
+            |-- README_echo_phase.md
+        |-- feedback_phase
+            |-- Q_harmonic_feedback_preview.png
+            |-- README_feedback_phase.md
+        |-- nodal_containment_phase
+            |-- Q_nodal_containment_preview.png
+            |-- README_phaseXIV_nodal_containment.md
+        |-- phase_meshes
+            |-- reconstituted_meshes_log.json
+        |-- Q_ignition_sim_phase
+            |-- Q_ignition_sim_preview.png
+            |-- README_phaseXVI_ignition.md
+        |-- Q_modulation_banding_Phase
+            |-- Q_modulation_banding_preview.png
+            |-- README_phaseX_modulation.md
+        |-- triangulation_convergence
+            |-- Q_triangulation_thread_preview.png
+            |-- README_phaseXV_triangulation.md
+        |-- triangulation_threading_phase
+        |-- ‼️⛓️‍💥confinement_lens_phase
+            |-- Q_confinement_lens_preview.png
+            |-- README-phaseXIII-confinement.md
+        |-- ‼️⛓️‍💥harmonic_resonance_shell_phase
+            |-- Q_harmonic_resonance_preview.png
+            |-- README_phaseXII_resonance.md
+    |-- Phase_Index_Guide.md
+    |-- README.md
+    |-- simulations
+        |-- QESR_Ignition_Trace.md
+        |-- QESR_orchestration_driver_README.md
+    |-- unity
+        |-- QESR_Ignition_Flipbook_Guide.md
+        |-- QESR_Ignition_Flipbook_Placeholder.shadergraph.json
+|-- prompts
+    |-- convergence_querieies
+        |-- phaseXIV_nodal_containment_convergence_report_2026-02-11.md
+|-- prototypes
+    |-- Nivalis_Node_Phase_I
+        |-- docs
+            |-- PCL
+                |-- Branching
+                    |-- pcl_branching_logic.md
+                    |-- simulation
+                        |-- Bloom_Pass_002.md
+            |-- QESR
+                |-- index.md
+                |-- layer 1
+                    |-- QESR_L1_Sweep.md
+                |-- Layer 2
+                    |-- QESR_L2_Sweep.md
+                |-- Layer 3
+                    |-- QESR_L3_Sweep.md
+                |-- Layer 4
+                    |-- QESR_L4_Sweep.md
+                |-- Layer 5
+                    |-- QESR_L5_Sweep.md
+            |-- readme.txt
+        |-- modules
+            |-- PhaseII_Parametric_Bloom.md
+            |-- PhaseII_Parametric_Bloom.obj
+            |-- Q_confinement_lens_field.obj
+            |-- Q_ignition_harmonic_mesh.obj
+            |-- Q_triangulation_thread_mesh.obj
+            |-- QESR_charge_braid.md
+            |-- QESR_charge_braid.obj
+            |-- QESR_compression_shell.obj
+            |-- QESR_confinement_lens.obj
+            |-- QESR_corridor_convergence_mesh.obj
+            |-- QESR_corridor_mesh_link.md
+            |-- QESR_corridor_mesh_link.obj
+            |-- QESR_curl_threading_structure.obj
+            |-- QESR_echo_spiral_reinforcement.obj
+            |-- QESR_foldback_retention.obj
+            |-- QESR_harmonic_resonance_shell.obj
+            |-- QESR_ignition_threshold_shell.obj
+            |-- QESR_modulation_braid.obj
+            |-- QESR_nodal_containment.obj
+            |-- README.md
+        |-- prototype_scale
+            |-- macro
+                |-- readme.txt
+            |-- micro
+            |-- nano
+                |-- Figures
+                    |-- QESR_Lattice_Sweep_1_Resonance_Field_Topology.PNG
+                    |-- QESR_Sweep_Layers.md
+                    |-- QESR_Validation
+                        |-- QESR_Validation_Suite.py
+                        |-- QESR_Validation_Suite_SVG.py
+                        |-- 📊 QESR Analytical Plot Suite.text
+                    |-- Stylaized
+                        |-- QESR_Five_Layer_Lattice_Sweep.svg
+                        |-- QESR_sweep_composite.png
+                        |-- readme.text
+                |-- Parametric
+                    |-- QESR_L3_parametric.md
+                    |-- QESR_L3_parametric_equations.txt
+                    |-- README.md
+                |-- QESR_Validation_Suite.txt
+        |-- results
+        |-- simulation
+            |-- inference_trace_pass_001.md
+            |-- pcl_micro_lattice_seed_001.md
+        |-- src
+            |-- convergence
+                |-- fusion_field.py
+                |-- notebooks
+                    |-- Convergence_Envelope_Test.ipynb
+                    |-- Harmonic_Field_Sweep.ipynb
+            |-- Harmonic_Overlay.py
+            |-- modules
+                |-- tunnel_mapping
+                    |-- QESR_tunnel_divergence_shell.obj
+                    |-- README_tunnel_node_map.md
+                    |-- tunnel_node_threading.py
+                    |-- tunnel_thread_field.py
+            |-- overlay
+                |-- harmonic_field_sweep_viewer.py
+            |-- standins.md
